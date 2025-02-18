@@ -19,18 +19,20 @@ function App() {
         <Header />
 
         {/* Define routes for the main content */}
-        <Routes>
-          <Route path="/" element={
-            <>
-              <Home />
-              <AnimatedImage />
-              <Introduction />
-              <Projects />
-              <Contact />
-            </>
-          } />
-          <Route path="/project/:name" element={<ProjectDetail />} />
-        </Routes>
+        <div className="main-content">
+          <Routes>
+            <Route path="/" element={
+              <>
+                <Home />
+                <AnimatedImage />
+                <Introduction />
+                <Projects />
+                <Contact />
+              </>
+            } />
+            <Route path="/project/:name" element={<ProjectDetail />} />
+          </Routes>
+        </div>
 
         <Footer />
       </div>

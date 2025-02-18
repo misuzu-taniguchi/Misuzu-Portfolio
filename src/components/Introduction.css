@@ -4,6 +4,7 @@
 
 .introduction h2 {
     display: flex;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .introduction ul {

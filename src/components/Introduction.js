@@ -14,7 +14,7 @@ const Introduction = () => {
                 <li>Midwife in Japan</li>
                 <li>Multilingual (English, Japanese, Korean, Mandarin)</li>
                 <li>Dancer (K-POP, HIPHOP, Street Jazz)</li>
-                <li>Optimistic, Curious person</li>
+                <li>Outgoing, Curious person</li>
             </ul>
         </div>
     );

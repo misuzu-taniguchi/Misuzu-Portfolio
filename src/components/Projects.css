@@ -5,3 +5,27 @@
 .projects h2 {
     font-family: 'Press Start 2P', cursive;
 }
+
+.projects .project h3 {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.projects .project a {
+    text-decoration: none;
+    /* remove underline */
+}
+
+.projects .project a:hover h3 {
+    color: #0077cc;
+}
+
+.projects ul {
+    list-style-image: url('../assets/star.png');
+    padding-left: 20px;
+}
+
+.projects li {
+    padding-left: 10px;
+}

@@ -1,6 +1,6 @@
 body {
   font-family: "poppins", sans-serif;
-  background-color: #6185f8;
+  background: linear-gradient(to bottom, #87CEFA 30%, #A7C7E7 100%);
   overflow-x: hidden;
 }
 

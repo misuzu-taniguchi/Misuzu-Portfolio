@@ -12,13 +12,14 @@
     display: inline-block;
 }
 
-.projects .project a {
-    text-decoration: none;
-    /* remove underline */
+.projects .project a h3 {
+    counter-reset: black;
+    text-decoration: underline;
 }
 
 .projects .project a:hover h3 {
     color: #0077cc;
+    text-decoration: underline;
 }
 
 .projects ul {
@@ -28,4 +29,9 @@
 
 .projects li {
     padding-left: 10px;
+}
+
+.project :visited {
+    color: #000;
+    text-decoration: underline;
 }

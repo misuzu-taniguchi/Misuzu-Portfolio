@@ -8,6 +8,10 @@ const Projects = () => {
             <h2>Projects</h2>
             <ul>
                 <li className="project">
+                    <Link to="/project/Asset-Tracker"><h3>Asset Tracker</h3></Link>
+                    <p>Asset tracking web application using React.js and Firebase</p>
+                </li>
+                <li className="project">
                     <Link to="/project/Oishii-Ramen"><h3>Oishii Ramen</h3></Link>
                     <p>Java-based Ramen store management game</p>
                 </li>

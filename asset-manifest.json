@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Misuzu-Portfolio/static/css/main.4bb396f7.css",
+    "main.css": "/Misuzu-Portfolio/static/css/main.d38a2259.css",
     "main.js": "/Misuzu-Portfolio/static/js/main.6a7772cb.js",
     "static/js/453.acca0757.chunk.js": "/Misuzu-Portfolio/static/js/453.acca0757.chunk.js",
     "static/media/kyoto-adventure1.png": "/Misuzu-Portfolio/static/media/kyoto-adventure1.7c804e0fd914a19441fe.png",
@@ -10,12 +10,12 @@
     "static/media/Asset-tracker-data-table.png": "/Misuzu-Portfolio/static/media/Asset-tracker-data-table.f7edd4be2c6ddc6ebe0d.png",
     "static/media/Asset-tracker-graph.png": "/Misuzu-Portfolio/static/media/Asset-tracker-graph.8c905dad01896cfae82e.png",
     "index.html": "/Misuzu-Portfolio/index.html",
-    "main.4bb396f7.css.map": "/Misuzu-Portfolio/static/css/main.4bb396f7.css.map",
+    "main.d38a2259.css.map": "/Misuzu-Portfolio/static/css/main.d38a2259.css.map",
     "main.6a7772cb.js.map": "/Misuzu-Portfolio/static/js/main.6a7772cb.js.map",
     "453.acca0757.chunk.js.map": "/Misuzu-Portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bb396f7.css",
+    "static/css/main.d38a2259.css",
     "static/js/main.6a7772cb.js"
   ]
 }

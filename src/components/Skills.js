@@ -8,19 +8,23 @@ const Skills = () => {
             <ul>
                 <li className="skill">
                     <h3>Programming Languages</h3>
-                    <p>Python, Java, C, Kotlin, R, JavaScript, HTML, CSS</p>
+                    <p>Python, JavaScript, Java, Kotlin, C, HTML, CSS, R</p>
                 </li>
                 <li className="skill">
                     <h3>Frameworks</h3>
-                    <p>React.js, Node.js, Express.js, Pygame, JavaFX, Bootstrap, Firebase, MongoDB, MySQL</p>
+                    <p>Django, Node.js, React, FastAPI, Bootstrap, JavaFX</p>
                 </li>
                 <li className="skill">
-                    <h3>Tools</h3>
-                    <p>Git, Visual Studio Code, Cloudflare, Figma, Trello, PyCharm, IntelliJ IDEA, CLion, Android Studio, RStudio</p>
+                    <h3>Databases</h3>
+                    <p>DynamoDB, Firebase, MongoDB, MySQL, PostgreSQL</p>
                 </li>
                 <li className="skill">
                     <h3>Certification</h3>
-                    <p>AWS Certified Cloud Practitioner (2024)</p>
+                    <p>AWS Certified Solutions Architect - Associate (July 2025)</p>
+                </li>
+                <li className="skill">
+                    <h3>Cloud & Tools</h3>
+                    <p>AWS(EC2, S3, IAM, Cognito, Lambda, SNS), Docker, Git, Linux</p>
                 </li>
             </ul>
         </div>

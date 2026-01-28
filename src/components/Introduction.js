@@ -10,11 +10,11 @@ const Introduction = () => {
                 {/* <img src={box} alt="Box" className="box" /> */}
                 It's-a Me, Misuzu!</h2>
             <ul>
-                <li>Computer Science student at British Columbia Institute of Technology, Vancouver</li>
-                <li>Midwife in Japan</li>
-                <li>Multilingual (English, Japanese, Korean, Mandarin)</li>
-                <li>Dancer (K-POP, HIPHOP, Street Jazz)</li>
-                <li>Outgoing, Curious person</li>
+                <li>Software Developer | BCIT CST Graduate (Cloud Computing)</li>
+                <li>Based in Vancouver, BC, Canada</li>
+                <li>Former Midwife in Japan (3 years of clinical experience)</li>
+                <li>Strong in teamwork, problem-solving, and quick learning</li>
+                <li>Multilingual: English, Japanese, Korean, Mandarin</li>
             </ul>
         </div>
     );

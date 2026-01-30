@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
     return (
         <div className="footer">
-            <p>© Copyright 2025 Misuzu Taniguchi</p>
+            <p>© Copyright 2026 Misuzu Taniguchi</p>
         </div>
     );
 }

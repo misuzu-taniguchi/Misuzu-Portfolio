@@ -7,8 +7,67 @@ import oishiiRamen1 from "../assets/oishii-ramen/oishii-ramen-top.png";
 import minutemon1 from "../assets/minutemon/daily-goals-screenshot.png";
 import minutemon2 from "../assets/minutemon/timer-screenshot.png";
 import kyotoAdventure1 from "../assets/kyoto-adventure/kyoto-adventure1.png";
+import admin_api_stats from "../assets/moodmate/admin-api-stats.png";
+import admin_user_stats from "../assets/moodmate/admin-user-stats.png";
+import ai_advice from "../assets/moodmate/ai-advice.png";
+import mood_survey from "../assets/moodmate/mood-survey.png";
+import profile from "../assets/moodmate/profile.png";
 
 const project = [
+    {
+        paramName: "Incident-Reporting-System",
+        projectName: "Incident Reporting System",
+        time: "September 2025 - December 2025",
+        description: [
+            "Led the system design from scratch for a 5-member team, translating non-technical client requirements into a functional web application architecture using Django, React, and PostgreSQL, containerized with Docker.",
+            "Defined database schemas and data flow to support incident reporting and activity logging.",
+            "Built logging functionality to record user actions and implemented CSRF protection to meet security requirements.",
+        ],
+        images: [
+        ]
+    },
+    {
+        paramName: "MoodMate",
+        projectName: "MoodMate",
+        time: "October 2025 - November 2025",
+        description: [
+            "Implemented and deployed a self-hosted LLM backend on DigitalOcean, balancing response quality and latency through prompt engineering and performance considerations under limited infrastructure resources.",
+            "Worked closely with teammates on database schema design and data flow for AI advice generation.",
+        ],
+        gitHubLink: "https://github.com/misuzu-taniguchi/ai-powered-api-server",
+        images: [
+            mood_survey,
+            ai_advice,
+            profile,
+            // admin_user_stats,
+            // admin_api_stats
+        ]
+    },
+    {
+        paramName: "pos-integrator",
+        projectName: "pos-integrator",
+        time: "April 2025 - May 2025",
+        description: [
+            "Developed a FastAPI endpoint to fetch POS data from Square and Clover APIs on demand and stored it in a Docker-hostedPostgreSQL database with a unified schema for seamless integration into Stocky AI's production system.",
+            "Collaborated with Principal Engineers to develop Pytest unit tests ensuring the robustness of the integration work.",
+            "Participated in a 5-week Agile sprint, joining daily stand-ups and weekly reviews led by Principal Engineers.",
+        ],
+        images: [
+        ]
+    },
+    {
+        paramName: "ReloCash",
+        projectName: "ReloCash",
+        time: "February 2025 - April 2025",
+        description: [
+            "Built a full-stack marketplace for movers in a team of three using JavaScript and Node.js, hosted on Amazon EC2.",
+            "Integrated user authentication via Amazon Cognito, storing customer/item data in DynamoDB and photos in S3/EFS.",
+        ],
+        gitHubLink: "https://github.com/misuzu-taniguchi/ReloCash",
+        images: [
+
+        ]
+    },
     {
         paramName: "Asset-Tracker",
         projectName: "Asset Tracker",

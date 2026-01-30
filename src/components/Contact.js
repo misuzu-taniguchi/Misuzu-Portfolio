@@ -9,7 +9,7 @@ const Contact = () => {
                 <SocialIcon url="https://www.linkedin.com/in/misuzu-taniguchi/" />
             </div>
             <div className="github">
-                <SocialIcon url="https://github.com/Miryeong1235" />
+                <SocialIcon url="https://github.com/misuzu-taniguchi" />
             </div>
             <div className="email">
                 <SocialIcon url="mailto:mtaniguchi3@my.bcit.ca" />

@@ -91,3 +91,14 @@
     max-height: 90%;
     border-radius: 10px;
 }
+
+.project-meta {
+    margin: 6px 0 4px;
+    font-size: 0.95rem;
+    color: #444;
+    font-weight: 500;
+}
+
+.meta-label {
+    font-weight: 600;
+}

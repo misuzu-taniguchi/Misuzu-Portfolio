@@ -18,6 +18,7 @@ const project = [
         paramName: "Incident-Reporting-System",
         projectName: "Incident Reporting System",
         time: "September 2025 - December 2025",
+        client: "Labour Union System",
         description: [
             "Led the system design from scratch for a 5-member team, translating non-technical client requirements into a functional web application architecture using Django, React, and PostgreSQL, containerized with Docker.",
             "Defined database schemas and data flow to support incident reporting and activity logging.",
@@ -47,6 +48,7 @@ const project = [
         paramName: "pos-integrator",
         projectName: "pos-integrator",
         time: "April 2025 - May 2025",
+        client: "Stocky AI",
         description: [
             "Developed a FastAPI endpoint to fetch POS data from Square and Clover APIs on demand and stored it in a Docker-hostedPostgreSQL database with a unified schema for seamless integration into Stocky AI's production system.",
             "Collaborated with Principal Engineers to develop Pytest unit tests ensuring the robustness of the integration work.",
@@ -155,7 +157,14 @@ function ProjectDetail() {
     return (
         <div className="project-detail">
             <div className="project-info">
-                <h2>{projectDetail.projectName}</h2>
+                <h2>
+                    {projectDetail.projectName}
+                </h2>
+                {projectDetail.client && (
+                    <p className="project-meta">
+                        <span className="meta-label">Industry-Sponsored</span> · {projectDetail.client}
+                    </p>
+                )}
                 <p className="project-time">{projectDetail.time}</p>
                 <ul className="project-description">
                     {projectDetail.description.map((point, index) => (

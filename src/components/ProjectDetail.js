@@ -163,9 +163,17 @@ function ProjectDetail() {
                     ))}
                 </ul>
 
-                <a href={projectDetail.gitHubLink} target="_blank" rel="noreferrer" className="project-link">
-                    GitHub Repository
-                </a>
+                {projectDetail.gitHubLink && (
+                    <a
+                        href={projectDetail.gitHubLink}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="project-link"
+                    >
+                        GitHub Repository
+                    </a>
+                )}
+
                 {projectDetail.appLink && (
                     <a href={projectDetail.appLink} target="_blank" rel="noreferrer" className="project-link">
                         Application Link
